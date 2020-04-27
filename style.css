@@ -1,0 +1,117 @@
+html,body{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*------globals------*/
+a{
+    text-decoration: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*------globals------*/
+
+/*------navigation------*/
+
+.nav{
+    background-color: rgb(173, 173, 173);
+    padding: 0rem 0rem;
+    overflow: hidden;    
+}
+
+.nav .pages{
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+.nav .nav-title {
+    font-family: 'Times New Roman';
+    font-size: 2rem;
+    padding: .5rem .5rem;
+}
+.nav .nav-title a{
+    color: black;
+}
+
+.nav .pages .page-item{
+    padding: 0rem 0rem;
+    font-family: Arial;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav .pages a {
+    padding: 1rem 1rem;
+    display: block;
+    color:black;
+    border-radius: .3rem;
+}
+.nav .pages :hover a {
+   background-color: black;
+   color: white;
+}
+/*------navigation------*/
+/*------main------*/
+main .site-title{
+    background-image: url("./assets/PC-mainboard-electronic-components_5120x2880.jpg");
+    background-size: cover;
+    height: 110vh;
+    top: 0%;
+    justify-content: center;
+    
+}
+main .site-title .background{
+    padding-top: 13rem;
+    text-align: center;
+    color:white;
+}
+
+main .site-title h1{
+    font-size: 5rem;
+    font-family: cursive;
+    color: rgb(179, 0, 0);
+}
+main .site-title button{
+    font-family: Arial;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    border-radius: 2.5rem;
+    color: black;
+    background-color: skyblue;
+    border: none;
+}
+main .site-title button:hover{
+    color: red;
+    background: none;
+    border: 2px solid black;
+}
+
+main .post-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(173, 173, 173)
+}
+main .image > img{
+    width:100%
+}
+main .post-container{
+    padding: .3rem .3rem;
+}
+
+main .container .img-content p{
+    font-size: 1.7rem;
+    padding: 0rem .7rem;
+}
+
+
+/*------main------*/
+
+
