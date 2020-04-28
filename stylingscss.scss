@@ -1,0 +1,21 @@
+$bad:red;
+$ok : rgb(8, 22, 146);
+$good : green;
+
+%text {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.bad {
+    @extend %text;
+    color: $bad;
+}
+.ok {
+    @extend %text;
+    color: $ok;
+}
+.good {
+    @extend %text;
+    color: $good;
+}

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,gBAAM;EACF,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,UAAU;;AAG3B,IAAK;EAED,KAAK,EAXJ,GAAG;;AAaR,GAAI;EAEA,KAAK,EAdH,OAAe;;AAgBrB,KAAM;EAEF,KAAK,EAjBD,KAAK",
+"sources": ["stylingscss.scss"],
 "names": [],
 "file": "stylingscss.css"
 }

@@ -1,3 +1,14 @@
+.bad, .ok, .good {
+  font-size: 18px;
+  font-family: sans-serif; }
 
+.bad {
+  color: red; }
+
+.ok {
+  color: #081692; }
+
+.good {
+  color: green; }
 
 /*# sourceMappingURL=stylingscss.css.map */
